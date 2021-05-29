@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5% 10%;
+    font-size: 14px;
+}
+
+h1::selection,
+h2::selection,
+strong::selection,
+blockquote::selection,
+b::selection,
+a::selection,
+img::selection,
+em::selection,
+p::selection,
+body::selection {
+    background: yellow; /* WebKit/Blink Browsers */
+}
+
+h1,
+h2 {
+    font-family: "Times New Roman", serif;
+    font-size: 28px;
+    color: limegreen;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    text-align: justify;
+}
+
+q,
+blockquote {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 10px 0 10px 60px;
+}
+
+img {
+    display: block;
+    width: 300px;
+    border-radius: 8px;
+    border: 8px solid limegreen;
+    margin: 0 auto;
+}
+
+.didYouKnow {
+    border: 3px solid limegreen;
+    padding: 10px;
+    background: url("../imagens/fundo.png");
+}
